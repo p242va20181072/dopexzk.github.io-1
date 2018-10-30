@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: "微軟正黑體";
+            box-sizing: border-box; 
+        }
+    .container{
+        width: 650px;
+        height: 300px;
+        /* display: block; */
+        text-align: center;
+        background-color: #ccc;
+        font-size: 0;
+       
+    }
+    .picture{
+        display: inline-block;
+        vertical-align: middle;
+        width: 250px;
+        height: 200px;
+        text-align: left;
+        padding: 0 15px;
+    }
+    .abc{
+        width: 400px;
+        font-size: 16px;
+        vertical-align: middle;
+        display: inline-block;
+        text-align: left;
+        padding: 0 15px;
+    }
+    .box{
+        width: 600px;
+        height: 500px;
+        background-color: lime;
+        text-align: left;
+    }
+    .menu{
+          display: inline-block;
+          vertical-align: middle;
+          width: 200px;
+          height: 200px;
+          font-size: 16px;
+          text-align: center;
+          padding: 0 30px;
+    }
+    .container::before{
+        content: "";
+        height: 100%;
+        vertical-align: middle;
+        display: inline-block;
+    }
+    .box::before{
+        content: "";
+        height: 100%;
+        vertical-align: middle;
+        display: inline-block;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="picture">
+            <img src="https://source.unsplash.com/random/250x150" alt="傑哥好棒棒">
+        </div>
+        <div class="abc">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus soluta voluptatem.</p>
+        </div>    
+            <!-- <a href="#" title="傑哥不要">解鎖看更多</a>         -->
+    </div>
+    <!-- <div class="box">
+        <div class="menu">
+            <img src="https://source.unsplash.com/random/150x150" alt="戴哥不棒棒">
+        </div> 
+        <div>   
+            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus soluta voluptatem.</h1>
+        </div> 
+            <a href="#" title="戴哥我還要">解鎖看更多</a>
+    </div> -->
+    
+</body>
+</html>

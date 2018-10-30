@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css_reset.css">
+    <style>
+    /* h1[class*=" "]*代表有一樣的字就會套用 */
+    /* h1[class^=" "]^代表開頭一樣的套用 */
+    /*h1[class$=" "] /*$代表結尾一樣的套用 */
+    [class*="col"]{
+        float: left;
+        padding: 15px;
+    }
+    [class^="q"]{
+        color: blue;
+        float: left;
+        padding: 20px;
+        width: calc(100% / 4);
+    }
+col-1
+    </style>
+</head>
+<body>
+    <h1 class="qaz">TITLE</h1>
+    <h2 class="qaz">HTML</h2>
+    <h3 class="qaz">CSS</h3>
+    <h4 class="qaz">JAVA SCRIPT</h4><br>
+    
+<div class="col-9">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, et.</div>
+<div class="col-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, et.</div>
+<div class="col-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, et.</div>
+<div class="col-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, et.</div>
+
+</body>
+</html>

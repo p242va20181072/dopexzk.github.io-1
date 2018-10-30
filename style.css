@@ -1,0 +1,31 @@
+.box{
+color: #FFFDD0;
+background-color:#89CFF0;
+width: 250px;
+font-family: "微軟正黑體";
+}   
+
+.yyy{
+color: 	#990036;
+font-size: 20px;
+font-family: serif,微軟正黑體;
+border: dashed;
+
+}
+
+.zzz{
+color: 	#5000B8;
+font-size: 18px;
+font-family: Courier,微軟正黑體;
+border: double;
+}
+
+body{
+    height: 800px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image:linear-gradient(50deg,rgba(128, 0, 128,0.5),rgba(0, 128, 0,0.5),rgba(255, 165, 0,0.5),rgba(255, 192, 203,0.5),rgba(255, 255, 0,0.5),rgba(255, 0, 0,0.5),rgba(0,0,255,0.5))
+    ,url(http://source.unsplash.com/random/);
+    }

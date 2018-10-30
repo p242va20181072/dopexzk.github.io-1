@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    .box{
+        width: 500px;
+        background-color: rgb(139, 121, 240);
+        /* overflow: auto; */
+        }
+
+    .fox{
+        height: 100px;
+        width: 100px;
+        background-color: rgb(37, 236, 19);
+        float: left;
+    }
+    .lox{
+        width: 300px;
+        height: 300px;
+        background-color: rgb(145, 26, 99);
+        float: left;
+    }
+    .clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+    }
+    
+    
+    
+    
+    
+    </style>
+</head>
+<body>
+    <div class="box clearfix">
+        <div class="fox"></div>
+        <div class="lox"></div>
+    </div>
+</body>
+</html>
